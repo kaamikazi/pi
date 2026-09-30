@@ -1,0 +1,33 @@
+# Inspection output, temporary files, caches and OS metadata
+analysis_output/
+inspection_output/
+.tmp/
+tmp/
+.cache/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Credential and private-key patterns
+.env
+.env.*
+.aws/
+.azure/
+.ssh/
+.gnupg/
+.kube/
+**/credentials
+**/credentials.*
+**/id_rsa*
+**/id_ed25519*
+**/id_ecdsa*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+# The user explicitly approved inclusion of network-config and user-data.

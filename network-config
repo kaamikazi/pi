@@ -1,0 +1,15 @@
+network:
+  version: 2
+  ethernets:
+    eth0:
+      dhcp4: true
+      dhcp6: true
+      optional: true
+  wifis:
+    wlan0:
+      dhcp4: true
+      regulatory-domain: "BD"
+      access-points:
+        "Edward 5GHz":
+          password: "0e23309f27c518e891576d0aec9c545838157c9a230a83fee6deb2162c0ac6e5"
+      optional: true
